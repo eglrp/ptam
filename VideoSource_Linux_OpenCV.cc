@@ -35,7 +35,7 @@ using namespace cv;
 VideoSource::VideoSource()
 {
   cout << "  VideoSource_Linux: Opening video source..." << endl;
-  mptr = new VideoCapture(0);
+  mptr = new VideoCapture(1);
 VideoCapture* cap = (VideoCapture*)mptr;
 	if(!cap->isOpened()){
 	cerr << "Unable to get the camera" << endl;
