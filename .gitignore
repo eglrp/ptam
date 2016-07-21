@@ -1,0 +1,15 @@
+build/
+a.out
+expt/nucore/
+
+# vim
+*.swp
+
+*.o
+build
+CVS
+
+CameraCalibrator
+PTAM
+
+.DS_Store
